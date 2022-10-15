@@ -1,0 +1,111 @@
+### Site Settings ###
+title: gorkaabad.io
+description: >-
+  Hi! &#128075; I am <b>Gorka Abad</b> a second-year Ph.D. candidate
+  in the AISyLab group at Radboud
+  University, Nijmegen, the Netherlands, under the supervision of
+  <a href="https://www.ru.nl/en/people/picek-s">Stjepan Picek</a>. At
+  the same time, I am a researcher at the
+  Ikerlan
+  research center in Spain. Previously, I graduated in computer
+  science and obtained a master's in cybersecurity. Now, my research
+  is focused on the intersection of machine learning and security.
+  Mainly, we aim to find flaws in machine learning algorithms to make
+  them work adversarially. Precisely, I focus on backdoor attacks in
+  machine learning and federated
+  learning.
+  <br>
+  <br>
+  You can check my recent publications at <a href="/publications/">Publications</a>. 
+  If you want to know more
+  about me, you can check my <a href="/about/">About</a> page. For code and implementations, you can check my <a href="
+  https://github.com/GorkaAbad">Github</a> page.
+
+baseurl: "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository: gorkaabad/gorkaabad.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme: YoussefRaafatNasry/portfolYOU
+open_new_tab: false # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+### Plugins ###
+plugins:
+  - jemoji
+
+### Navbar Settings ###
+nav_exclude: # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - pages/tags-publications.html
+  - pages/blog.html
+
+### Author Info ###
+author:
+  name: Gorka Abad
+  image: ./img.jpeg
+  #behance: your_username
+  # dribbble          : your_username
+  #email: username@domain.com
+  #facebook: your_username
+  github: gorkaabad
+  # gitlab            : your_username
+  # instagram         : your_username
+  # kaggle            : your_username
+  linkedin: Gorka Abad
+  #medium: your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # stackoverflow     : your_user_id
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
+  twitter: gorkaabad_
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+### Posts ###
+permalink: /blog/:title
+
+### Collections ###
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name
+
+### Disqus ###
+disqus:
+  shortname: gabad # Your website Shortname on disqus
+
+### Analytics ###
+analytics:
+  enabled: true # Set true to enable analytics
+  google:
+    tracking_id: G-QB5ZLSYRMN
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting." # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"

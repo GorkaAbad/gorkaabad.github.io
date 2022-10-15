@@ -1,0 +1,27 @@
+[
+  
+    {
+      "title"    : "On the Security &amp; Privacy in Federated Learning",
+      "category" : "",
+      "tags"     : "preprint",
+      "url"      : "https://arxiv.org/abs/2112.05423",
+      "date"     : "2022-03-16 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
+      "category" : "",
+      "tags"     : "preprint",
+      "url"      : "https://arxiv.org/abs/2203.08689",
+      "date"     : "2022-03-16 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "[POSTER] Backdoor Attacks in Spiking NN and Neuromorphic Datasets",
+      "category" : "",
+      "tags"     : "CCS'22",
+      "url"      : "/publications/3-poster-snn",
+      "date"     : "2022-03-16 00:00:00 +0100"
+    } 
+  
+]
