@@ -1,0 +1,43 @@
+[
+  
+    {
+      "title"    : "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/talks/2-launch-talk-1",
+      "date"     : "2022-02-16 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/talks/5-sniper-backdoor",
+      "date"     : "2022-03-16 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "On the Security &amp; Privacy in Federated Learning",
+      "category" : "",
+      "tags"     : "VeriDevOps",
+      "url"      : "/talks/1-on-the-security-privacy-in-fl",
+      "date"     : "2022-08-16 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "[Poster] Backdoor Attacks on Spiking NNs and Neuromorphic Datasets",
+      "category" : "",
+      "tags"     : "CCS'22",
+      "url"      : "/talks/4-poster-backdoor-snn",
+      "date"     : "2022-09-16 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Backdoor attack in SNNs and Neuromorphic Datasets",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/talks/3-launch-talk-2",
+      "date"     : "2022-12-16 00:00:00 +0100"
+    } 
+  
+]

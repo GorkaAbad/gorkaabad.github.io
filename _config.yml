@@ -36,6 +36,7 @@ nav_exclude: # The following paths are excluded from navbar
   - pages/404.html
   - pages/index.md
   - pages/tags-publications.html
+  - pages/tags-talks.html
   - pages/blog.html
 
 ### Author Info ###
@@ -70,6 +71,9 @@ collections:
   publications:
     output: true
     permalink: /publications/:name
+  talks:
+    output: true
+    permalink: /talks/:name
 
 ### Disqus ###
 disqus:
@@ -95,6 +99,11 @@ defaults:
   - scope:
       path: ""
       type: "publications"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "talks"
     values:
       layout: "page"
   - scope:

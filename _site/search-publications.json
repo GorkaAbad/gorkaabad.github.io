@@ -11,7 +11,7 @@
     {
       "title"    : "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
       "category" : "",
-      "tags"     : "preprint",
+      "tags"     : "SaTML'23",
       "url"      : "https://arxiv.org/abs/2203.08689",
       "date"     : "2022-03-16 00:00:00 +0100"
     } ,
@@ -20,7 +20,7 @@
       "title"    : "[POSTER] Backdoor Attacks in Spiking NN and Neuromorphic Datasets",
       "category" : "",
       "tags"     : "CCS'22",
-      "url"      : "/publications/3-poster-snn",
+      "url"      : "https://dl.acm.org/doi/10.1145/3548606.3563532",
       "date"     : "2022-03-16 00:00:00 +0100"
     } 
   
