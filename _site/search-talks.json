@@ -38,6 +38,22 @@
       "tags"     : "",
       "url"      : "/talks/3-launch-talk-2",
       "date"     : "2022-12-16 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/talks/6-sneaky-spikes",
+      "date"     : "2023-02-04 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
+      "category" : "",
+      "tags"     : "SaTML'23",
+      "url"      : "/talks/7-sniper-backdoor",
+      "date"     : "2023-02-08 00:00:00 +0100"
     } 
   
 ]

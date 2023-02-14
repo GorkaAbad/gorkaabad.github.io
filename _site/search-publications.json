@@ -5,15 +5,7 @@
       "category" : "",
       "tags"     : "preprint",
       "url"      : "https://arxiv.org/abs/2112.05423",
-      "date"     : "2022-03-16 00:00:00 +0100"
-    } ,
-  
-    {
-      "title"    : "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
-      "category" : "",
-      "tags"     : "SaTML'23",
-      "url"      : "https://arxiv.org/abs/2203.08689",
-      "date"     : "2022-03-16 00:00:00 +0100"
+      "date"     : "2022-01-16 00:00:00 +0100"
     } ,
   
     {
@@ -21,7 +13,31 @@
       "category" : "",
       "tags"     : "CCS'22",
       "url"      : "https://dl.acm.org/doi/10.1145/3548606.3563532",
-      "date"     : "2022-03-16 00:00:00 +0100"
+      "date"     : "2022-08-16 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "A Systematic Evaluation of Backdoor Trigger Characteristics in Image Classification",
+      "category" : "",
+      "tags"     : "preprint",
+      "url"      : "https://arxiv.org/pdf/2302.01740.pdf",
+      "date"     : "2023-02-03 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
+      "category" : "",
+      "tags"     : "SaTML'23",
+      "url"      : "https://openreview.net/pdf?id=P90zTbrvvz",
+      "date"     : "2023-02-08 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
+      "category" : "",
+      "tags"     : "preprint",
+      "url"      : "https://arxiv.org/abs/2302.06279",
+      "date"     : "2023-02-13 00:00:00 +0100"
     } 
   
 ]
