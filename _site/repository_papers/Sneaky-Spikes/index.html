@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data</title>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+
+  </head>
+
+  <div class="container">
+  <body>
+
+    <center><span style="font-size:40px">
+      Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data
+    </span></center>
+    <div class="gap-20"></div>
+
+    <!---------------------  authors --------------------->
+    <center>
+    <span style="font-size:20px">
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://gorkaabad.github.io"><b>Gorka Abad</b></a>
+          <sup style="font-size:15px">1</sup>
+          <sup style="font-size:15px">2</sup>
+          ,
+          </div>
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://oguzhanersoy.github.io/">Oğuzhan Ersoy</a>
+          <sup style="font-size:15px">1</sup>,
+          </div>
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://www.ru.nl/en/people/picek-s">Stjepan Picek</a>
+          <sup style="font-size:15px">1</sup>,
+          </div>
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://scholar.google.com/citations?user=OzKhvOEAAAAJ&hl=en">Aitor Urbieta</a>
+          <sup style="font-size:15px">2</sup>
+          </div>
+    </span>
+	</center>
+    <!--------------------- affiliations --------------------->
+    <div class="gap-5"></div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3">
+        <center><span style="font-size:20px">
+          Radboud University<sup style="font-size:15px">1</sup>
+        </span></center>
+      </div>
+      <div class="col-md-3">
+        <center><span style="font-size:20px">
+          Ikerlan Research Centre<sup style="font-size:15px">2</sup>
+        </span></center>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <!-- <p>* Equal contribution</p> -->
+    <hr>
+
+    <!--------------------- links --------------------->
+    <div class="gap-10"></div>
+
+    <center>
+    <span style="font-size:20px"> 
+      <!-- <b>NDSS 2023</b> -->
+      &nbsp; 
+      [<a href="https://arxiv.org/pdf/2302.06279.pdf">paper</a>]
+      &nbsp;
+      [<a href="bibtex.txt">BibTeX</a>]
+      &nbsp; 
+      <!-- [<a href="https://github.com/GorkaAbad/Sneaky-Spikes">code</a>] -->
+    </span>
+    <div class="gap-20"></div>
+
+    </center>
+<img width="100%" src="images/attack_overview.gif">
+<p></p>
+<p><i>
+  We create four different backdoor attacks on SNNs using neuromorphic data. Using static, moving, smart, and dynamic trigger. The construction of the dynamic trigger is shown in the figure.
+  The trigger is generated using a spiking autoencoder, which from noise constructs a trigger that is then added to the clean input and used to attack the SNN.
+  We can control the stealthiness of the trigger, making it invisible to the human eye, but still effective in attacking the SNN.
+</i></p>
+<hr>
+    <!--------------------- abstract --------------------->
+    <div class="gap-20"></div>
+    <center><b><span style="font-size:25px">Abstract</span></b><br></center>
+    <div class="gap-10"></div>
+    <p> 
+      Deep neural networks (DNNs) have demonstrated remarkable performance across various tasks, including image and speech recognition. However, maximizing the effectiveness of DNNs requires meticulous optimization of numerous hyperparameters and network parameters through training. Moreover, high-performance DNNs entail many parameters, which consume significant energy during training. In order to overcome these challenges, researchers have turned to spiking neural networks (SNNs), which offer enhanced energy efficiency and biologically plausible data processing capabilities, rendering them highly suitable for sensory data tasks, particularly in neuromorphic data. Despite their advantages, SNNs, like DNNs, are susceptible to various threats, including adversarial examples and backdoor attacks. Yet, the field of SNNs still needs to be explored in terms of understanding and countering these attacks.
+    </p>
+    <p>
+      This paper delves into backdoor attacks in SNNs using neuromorphic datasets and diverse triggers. Specifically, we explore backdoor triggers within neuromorphic data that can manipulate their position and color, providing a broader scope of possibilities than conventional triggers in domains like images. We present various attack strategies, achieving an attack success rate of up to 100% while maintaining a negligible impact on clean accuracy.
+      Furthermore, we assess these attacks' stealthiness, revealing that our most potent attacks possess significant stealth capabilities.
+      Lastly, we adapt several state-of-the-art defenses from the image domain, evaluating their efficacy on neuromorphic data and uncovering instances where they fall short, leading to compromised performance.
+    </p>
+  <hr>
+    <!--------------------- results --------------------->
+    <center><b><span style="font-size:25px">Results</span></b><br></center>
+    We show some examples of our dynamic trigger under different stealthiness levels:
+    <div class="gap-20"></div>
+    <center>
+      <img width="60%" src="images/dynamic.gif">
+    </center>
+    <div class="gap-20"></div>
+    <hr>
+
+  </body>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/bootstrap.min.js"></script>
+
+</html>

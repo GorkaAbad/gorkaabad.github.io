@@ -36,8 +36,24 @@
       "title"    : "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
       "category" : "",
       "tags"     : "preprint",
-      "url"      : "https://arxiv.org/abs/2302.06279",
+      "url"      : "/repository_papers/Sneaky-Spikes/index.html",
       "date"     : "2023-02-13 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Rethinking the Trigger-injecting Position in Graph Backdoor Attack",
+      "category" : "",
+      "tags"     : "IJCNN'23",
+      "url"      : "https://arxiv.org/pdf/2304.02277.pdf",
+      "date"     : "2023-04-10 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Poster: Backdoor Attack on Extreme Learning Machines",
+      "category" : "",
+      "tags"     : "CCS'23",
+      "url"      : "/publications/7-poster-backdoor-attack-on-exteme-learning-machines",
+      "date"     : "2023-09-13 00:00:00 +0200"
     } 
   
 ]
