@@ -1,0 +1,8 @@
+@inproceedings{abad2023sniper,
+  title={Sniper backdoor: Single client targeted backdoor attack in federated learning},
+  author={Abad, Gorka and Paguada, Servio and Ersoy, O{\u{g}}uzhan and Picek, Stjepan and Ram{\'\i}rez-Dur{\'a}n, V{\'\i}ctor Julio and Urbieta, Aitor},
+  booktitle={2023 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)},
+  pages={377--391},
+  year={2023},
+  organization={IEEE}
+}

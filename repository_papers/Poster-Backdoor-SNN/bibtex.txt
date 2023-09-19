@@ -1,0 +1,7 @@
+@inproceedings{abad2022poster,
+  title={Poster: Backdoor Attacks on Spiking NNs and Neuromorphic Datasets},
+  author={Abad, Gorka and Ersoy, Oguzhan and Picek, Stjepan and Ram{\'\i}rez-Dur{\'a}n, V{\'\i}ctor Julio and Urbieta, Aitor},
+  booktitle={Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={3315--3317},
+  year={2022}
+}

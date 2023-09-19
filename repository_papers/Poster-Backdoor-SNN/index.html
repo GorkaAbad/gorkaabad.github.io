@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning</title>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+
+  </head>
+
+  <div class="container">
+  <body>
+
+    <center><span style="font-size:40px">
+      Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning
+    </span></center>
+    <div class="gap-20"></div>
+
+    <!---------------------  authors --------------------->
+    <center>
+    <span style="font-size:20px">
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://gorkaabad.github.io"><b>Gorka Abad</b></a>
+          <sup style="font-size:15px">1</sup>
+          <sup style="font-size:15px">2</sup>,
+          </div>
+          <div style="display:inline-block">
+          <a href="https://hybridcores.com">Servio Paguada</a>
+          <sup style="font-size:15px">1</sup>
+          <sup style="font-size:15px">2</sup>,
+          </div>
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://oguzhanersoy.github.io/">Oğuzhan Ersoy</a>
+          <sup style="font-size:15px">1</sup>,
+          </div>
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://www.ru.nl/en/people/picek-s">Stjepan Picek</a>
+          <sup style="font-size:15px">1</sup>,
+          </div>
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://scholar.google.es/citations?user=gpHy7UMAAAAJ&hl=es&oi=ao">Víctor Julio Ramírez-Durán</a>
+          <sup style="font-size:15px">2</sup>,
+          </div>
+          &nbsp;
+          <div style="display:inline-block">
+          <a href="https://scholar.google.com/citations?user=OzKhvOEAAAAJ&hl=en">Aitor Urbieta</a>
+          <sup style="font-size:15px">2</sup>
+          </div>
+    </span>
+	</center>
+    <!--------------------- affiliations --------------------->
+    <div class="gap-5"></div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3">
+        <center><span style="font-size:20px">
+          Radboud University<sup style="font-size:15px">1</sup>
+        </span></center>
+      </div>
+      <div class="col-md-3">
+        <center><span style="font-size:20px">
+          Ikerlan Research Centre<sup style="font-size:15px">2</sup>
+        </span></center>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <!-- <p>* Equal contribution</p> -->
+    <hr>
+
+    <!--------------------- links --------------------->
+    <div class="gap-10"></div>
+
+    <center>
+    <span style="font-size:20px"> 
+      <b>CCS 2022</b>
+      &nbsp; 
+      [<a href="https://dl.acm.org/doi/10.1145/3548606.3563532">paper</a>]
+      &nbsp;
+      [<a href="bibtex.txt">BibTeX</a>]
+      &nbsp; 
+      [<a href="https://github.com/GorkaAbad/NeuromorphicBackdoors">code</a>]
+    </span>
+    <div class="gap-20"></div>
+
+    </center>
+    <center>
+    <img width="20%" src="images/bk_moving_middle_0_3.gif">
+    <img width="20%" src="images/bk_moving_middle_3_0.gif">
+    <img width="20%" src="images/bk_smart_bottom-right_3_15.gif">
+    <img width="20%" src="images/bk_static_middle_0_15.gif">
+    </center>
+        
+    <p><i>
+      We create the first backdoor attacks on neuromorphic datasets. Precisely we created two different backdoor attacks, static and moving trigger. 
+      The construction of the static and moving trigger is shown in the figure.
+      We can achieve stealthiness in some scenarios, while achieving high accuracy on both main and backdoor tasks.
+    </i></p>
+<hr>
+    <!--------------------- abstract --------------------->
+    <div class="gap-20"></div>
+    <center><b><span style="font-size:25px">Abstract</span></b><br></center>
+    <div class="gap-10"></div>
+    <p> 
+    Neural networks provide state-of-the-art results in many domains. Yet, they often require high energy and time-consuming training processes. Therefore, the research community is exploring alternative, energy-efficient approaches like spiking neural networks (SNNs). 
+    SNNs mimic brain neurons by encoding data into sparse spikes, resulting in energy-efficient computing.
+    To exploit the properties of the SNNs, they can be trained with neuromorphic datasets that capture the differences in motion.  
+    SNNs, just like any neural network model, can be susceptible to security threats that make the model perform anomalously. One of the most crucial threats is the backdoor attacks that modify the training set to inject a trigger in some samples. After training, the neural network will perform correctly on the main task. However, under the presence of the trigger (backdoor) on an input sample, the attacker can control its behavior.
+    The existing works on backdoor attacks consider standard datasets and not neuromorphic ones. 
+    </p>
+    <p>
+    In this paper, to the best of our knowledge, we present the first backdoor attacks on neuromorphic datasets.
+    Due to the structure of neuromorphic datasets, we utilize two different triggers, i.e., static and moving triggers. We then evaluate the performance of our backdoor using spiking neural networks, achieving top accuracy on both main and backdoor tasks, up to 99%. 
+    </p>
+  <hr>
+  </body>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/bootstrap.min.js"></script>
+
+</html>
