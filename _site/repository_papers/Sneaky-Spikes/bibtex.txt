@@ -1,6 +1,6 @@
-@article{abad2023sneaky,
+@article{abad2024sneaky,
   title={Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data},
   author={Abad, Gorka and Ersoy, Oguzhan and Picek, Stjepan and Urbieta, Aitor},
-  journal={arXiv preprint arXiv:2302.06279},
-  year={2023}
+  journal={Network Distributed System Security Symposium (NDSS)},
+  year={2024}
 }

@@ -33,14 +33,6 @@
     } ,
   
     {
-      "title"    : "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
-      "category" : "",
-      "tags"     : "preprint",
-      "url"      : "/repository_papers/Sneaky-Spikes/index.html",
-      "date"     : "2023-02-13 00:00:00 +0100"
-    } ,
-  
-    {
       "title"    : "Rethinking the Trigger-injecting Position in Graph Backdoor Attack",
       "category" : "",
       "tags"     : "IJCNN'23",
@@ -52,8 +44,32 @@
       "title"    : "Poster: Backdoor Attack on Extreme Learning Machines",
       "category" : "",
       "tags"     : "CCS'23",
-      "url"      : "/publications/7-poster-backdoor-attack-on-exteme-learning-machines",
+      "url"      : "https://dl.acm.org/doi/abs/10.1145/3576915.3624369",
       "date"     : "2023-09-13 00:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Tabdoor: Backdoor Vulnerabilities in Transformer-based Neural Networks for Tabular Data",
+      "category" : "",
+      "tags"     : "preprint",
+      "url"      : "https://arxiv.org/pdf/2311.07550.pdf",
+      "date"     : "2023-11-23 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Time-Distributed Backdoor Attacks on Federated Spiking Learning",
+      "category" : "",
+      "tags"     : "preprint",
+      "url"      : "/repository_papers/Time-Bandits/index.html",
+      "date"     : "2024-01-17 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
+      "category" : "",
+      "tags"     : "NDSS'24",
+      "url"      : "/repository_papers/Sneaky-Spikes/index.html",
+      "date"     : "2024-02-26 00:00:00 +0100"
     } 
   
 ]
