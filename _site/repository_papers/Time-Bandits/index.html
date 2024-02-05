@@ -81,12 +81,13 @@
     <div class="gap-20"></div>
 
     </center>
-<img width="100%" src="images/attack_overview.gif">
+<center>
+  <img width="80%" src="images/multiple_attackers.png">
+</center>
 <p></p>
 <p><i>
-  We create four different backdoor attacks on SNNs using neuromorphic data. Using static, moving, smart, and dynamic trigger. The construction of the dynamic trigger is shown in the figure.
-  The trigger is generated using a spiking autoencoder, which from noise constructs a trigger that is then added to the clean input and used to attack the SNN.
-  We can control the stealthiness of the trigger, making it invisible to the human eye, but still effective in attacking the SNN.
+  We investigate how to attack FL with SNNs using neuromorphic data. 
+  We create a new attack that distributes the backdoor trigger temporally and across malicious devices, enhancing the attack's effectiveness and stealthiness.
 </i></p>
 <hr>
     <!--------------------- abstract --------------------->
@@ -94,23 +95,8 @@
     <center><b><span style="font-size:25px">Abstract</span></b><br></center>
     <div class="gap-10"></div>
     <p> 
-      Deep neural networks (DNNs) have demonstrated remarkable performance across various tasks, including image and speech recognition. However, maximizing the effectiveness of DNNs requires meticulous optimization of numerous hyperparameters and network parameters through training. Moreover, high-performance DNNs entail many parameters, which consume significant energy during training. In order to overcome these challenges, researchers have turned to spiking neural networks (SNNs), which offer enhanced energy efficiency and biologically plausible data processing capabilities, rendering them highly suitable for sensory data tasks, particularly in neuromorphic data. Despite their advantages, SNNs, like DNNs, are susceptible to various threats, including adversarial examples and backdoor attacks. Yet, the field of SNNs still needs to be explored in terms of understanding and countering these attacks.
+    This paper investigates the vulnerability of spiking neural networks (SNNs) and federated learning (FL) to backdoor attacks using neuromorphic data. Despite the efficiency of SNNs and the privacy advantages of FL, particularly in low-powered devices, we demonstrate that these systems are susceptible to such attacks. We first assess the viability of using FL with SNNs using neuromorphic data, showing its potential usage. Then, we evaluate the transferability of known FL attack methods to SNNs, finding that these lead to suboptimal attack performance. Therefore, we explore backdoor attacks involving single and multiple attackers to improve the attack performance. Our primary contribution is developing a novel attack strategy tailored to SNNs and FL, which distributes the backdoor trigger temporally and across malicious devices, enhancing the attack's effectiveness and stealthiness. In the best case, we achieve a 100\% attack success rate, 0.13 MSE, and 98.9 SSIM. Moreover, we adapt and evaluate an existing defense against backdoor attacks, revealing its inadequacy in protecting SNNs. This study underscores the need for robust security measures in deploying SNNs and FL, particularly in the context of backdoor attacks.
     </p>
-    <p>
-      This paper delves into backdoor attacks in SNNs using neuromorphic datasets and diverse triggers. Specifically, we explore backdoor triggers within neuromorphic data that can manipulate their position and color, providing a broader scope of possibilities than conventional triggers in domains like images. We present various attack strategies, achieving an attack success rate of up to 100% while maintaining a negligible impact on clean accuracy.
-      Furthermore, we assess these attacks' stealthiness, revealing that our most potent attacks possess significant stealth capabilities.
-      Lastly, we adapt several state-of-the-art defenses from the image domain, evaluating their efficacy on neuromorphic data and uncovering instances where they fall short, leading to compromised performance.
-    </p>
-  <hr>
-    <!--------------------- results --------------------->
-    <center><b><span style="font-size:25px">Results</span></b><br></center>
-    We show some examples of our dynamic trigger under different stealthiness levels:
-    <div class="gap-20"></div>
-    <center>
-      <img width="60%" src="images/dynamic.gif">
-    </center>
-    <div class="gap-20"></div>
-    <hr>
 
   </body>
   </div>
