@@ -41,7 +41,7 @@
     } ,
   
     {
-      "title"    : "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
+      "title"    : "On the Security of Spiking Neural Networks",
       "category" : "",
       "tags"     : "",
       "url"      : "/talks/6-sneaky-spikes",
@@ -70,6 +70,14 @@
       "tags"     : "EHU'23",
       "url"      : "/talks/9-introduction-to-the-security-and-privacy-in-deep-learning",
       "date"     : "2023-12-04 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
+      "category" : "",
+      "tags"     : "NDSS'24",
+      "url"      : "/talks/10-ndss-sneaky-spikes",
+      "date"     : "2024-02-28 00:00:00 +0100"
     } 
   
 ]
