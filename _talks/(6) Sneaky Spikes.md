@@ -1,5 +1,5 @@
 ---
-name: "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data"
+name: "On the Security of Spiking Neural Networks"
 date: 2023-02-4
 location: "Ikerlan"
 tools: []
