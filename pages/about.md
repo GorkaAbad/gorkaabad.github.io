@@ -12,7 +12,6 @@ Hi, I am **{{ site.author.name }}** :wave:,<br> A Ph.D. student at Radboud Unive
 # **CV**
 Find my updated CV <a href="../CV.pdf">here</a>.
 <br>
-Lastly updated in April 2024.
 
 # **Contact**
 You can reach me by email: abad [dot] gorka [at] ru [dot] nl. 
