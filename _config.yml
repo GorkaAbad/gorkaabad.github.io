@@ -1,19 +1,18 @@
 ### Site Settings ###
 title: gorkaabad.io
 description: >-
-  Hi! &#128075; I am <b>Gorka Abad</b> a Ph.D. candidate
-  in the AISyLab group at Radboud
+  Hi! &#128075; I am <b>Gorka Abad</b> a posdoctoral researcher at the University of Bergen, Norway. 
+  I did my Ph.D. in the AISyLab group at Radboud
   University, Nijmegen, the Netherlands, under the supervision of
   <a href="https://www.ru.nl/en/people/picek-s">Stjepan Picek</a>. At
-  the same time, I am a researcher at the
-  Ikerlan
-  research center in Spain. Previously, I graduated in computer
+  the same time, I was a researcher at the
+  Ikerlan research center in Spain. Previously, I graduated in computer
   science and obtained a master's in cybersecurity. Now, my research
-  is focused on the intersection of machine learning and security.
+  is focused on the intersection of machine learning and security. 
+  Specifically in Cryptography and Security of AI.
   Mainly, we aim to find flaws in machine learning algorithms to make
   them work adversarially. Precisely, I focus on backdoor attacks in
-  machine learning and federated
-  learning.
+  machine learning.
   <br>
   <br>
   You can check my recent publications at <a href="/publications/">Publications</a>. 

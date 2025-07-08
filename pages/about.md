@@ -7,7 +7,7 @@ weight: 3
 
 # **About Me**
 
-Hi, I am **{{ site.author.name }}** :wave:,<br> A Ph.D. student at Radboud University working on adversarial machine learning, mostly in backdoor attacks and federated learning. Apart from my research, I am very passionate about science in general and, in particular, astronomy. Related to this, and as a side project, I am developing an autonomous telescope that can take pictures of the sky and track stellar objects by reusing old stepper motors from a 3D printer and a raspberry pi. You can track its progress in my <a href="https://github.com/GorkaAbad/Telescope">GitHub</a>.
+Hi, I am **{{ site.author.name }}** :wave:,<br> A postdoctoral researcher at the University of Bergen, Norway. Previously I was a  Ph.D. student at Radboud University. I am working on adversarial machine learning, mostly in backdoor attacks. Apart from my research, I am very passionate about science in general and, in particular, astronomy. Related to this, and as a side project, I am developing an autonomous telescope that can take pictures of the sky and track stellar objects by reusing old stepper motors from a 3D printer and a raspberry pi. You can track its progress in my <a href="https://github.com/GorkaAbad/Telescope">GitHub</a>.
 
 # **CV**
 Find my updated CV <a href="../CV.pdf">here</a>.
