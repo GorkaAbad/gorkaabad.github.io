@@ -1,65 +1,144 @@
-import Image from "next/image";
+'use client';
+import Link from 'next/link';
+import Image from 'next/image';
+import { ArrowRight, Mail, MapPin } from 'lucide-react';
+import { PaperCard } from '@/components/PaperCard';
+import papersData from '@/data/papers.json';
 
 export default function Home() {
+  // Sort papers by citation count and get top 5
+  const topCitedPapers = [...papersData]
+    .sort((a, b) => b.citation_count - a.citation_count)
+    .slice(0, 5);
+
+  // Email obfuscation helper
+  const emailUser = "gorka.abad";
+  const emailDomain = "uib.no";
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="container mx-auto px-6 py-16 max-w-5xl">
+        <div className="flex flex-col-reverse md:flex-row md:items-center justify-between gap-12">
+          <div className="flex-1 max-w-2xl">
+            <h1 className="text-4xl md:text-5xl font-bold text-zinc-900 dark:text-zinc-100 mb-6 leading-tight font-display">
+              Hi — I'm Gorka Abad
+            </h1>
+
+            <p className="text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-6">
+              I am a <strong className="font-semibold text-zinc-900 dark:text-zinc-100">Postdoc @ University of Bergen</strong>, where I work on bridging cryptography and deep learning.
+              Formerly, I was a P.h.D. candidate @ Radboud University.
+            </p>
+
+            <div className="flex flex-col gap-3 text-zinc-600 dark:text-zinc-400 mb-8">
+              <div className="flex items-center gap-2">
+                <MapPin className="w-4 h-4 text-zinc-400" />
+                <span>Bergen, Norway</span>
+              </div>
+              <div className="flex items-center gap-2 group">
+                <Mail className="w-4 h-4 text-zinc-400" />
+                <button
+                  onClick={() => window.location.href = `mailto:${emailUser}@${emailDomain}`}
+                  className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+                >
+                  {emailUser} [at] {emailDomain}
+                </button>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-4">
+              <Link
+                href="/research"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 rounded-md hover:bg-zinc-700 dark:hover:bg-zinc-300 transition-colors text-sm font-medium"
+              >
+                View Publications <ArrowRight className="w-4 h-4" />
+              </Link>
+              <a
+                href="https://no.linkedin.com/in/gorka-abad/en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-zinc-300 dark:border-zinc-700 rounded-md hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors text-sm font-medium"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/GorkaAbad"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-zinc-300 dark:border-zinc-700 rounded-md hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors text-sm font-medium"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://scholar.google.com/citations?user=KasGG7wAAAAJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-zinc-300 dark:border-zinc-700 rounded-md hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors text-sm font-medium"
+              >
+                Google Scholar
+              </a>
+            </div>
+          </div>
+
+          <div className="flex-shrink-0">
+            <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-white dark:border-zinc-800 shadow-xl ring-1 ring-zinc-200 dark:ring-zinc-700">
+              <Image
+                src="/profile.jpg"
+                alt="Gorka Abad"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Research Interests */}
+      <section className="container mx-auto px-6 py-16 max-w-5xl border-t border-zinc-200 dark:border-zinc-800">
+        <h2 className="text-2xl font-semibold mb-8 text-zinc-900 dark:text-zinc-100">Research Areas</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          <div>
+            <h3 className="font-medium text-zinc-900 dark:text-zinc-100 mb-2">Deep Learning & Crypto</h3>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Bridging the gap between cryptography and deep learning to build more secure and efficient machine learning systems.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-medium text-zinc-900 dark:text-zinc-100 mb-2">Spiking Neural Networks</h3>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Investigating the security and robustness of bio-inspired Spiking Neural Networks (SNNs).
+            </p>
+          </div>
+          <div>
+            <h3 className="font-medium text-zinc-900 dark:text-zinc-100 mb-2">Neuromorphic Data</h3>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              Developing novel attacks and defenses for neuromorphic data and event-based vision systems.
+            </p>
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* Selected Publications */}
+      <section className="container mx-auto px-6 py-16 max-w-5xl border-t border-zinc-200 dark:border-zinc-800">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Selected Publications</h2>
+          <Link
+            href="/research"
+            className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+          >
+            View all →
+          </Link>
+        </div>
+        <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-6">
+          Top 5 most cited publications
+        </p>
+        <div>
+          {topCitedPapers.map((paper, index) => (
+            <PaperCard key={index} {...paper} />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

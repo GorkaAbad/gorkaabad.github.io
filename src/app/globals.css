@@ -1,26 +1,82 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #1a1a1a;
+  --color-secondary: #666666;
+  --color-muted: #999999;
+  --color-accent: #0066cc;
+  --color-background: #ffffff;
+  --color-surface: #fafafa;
+  --color-border: #e5e5e5;
+
+  --font-display: var(--font-outfit), sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --primary: #1a1a1a;
+    --secondary: #666666;
+    --muted: #999999;
+    --accent: #0066cc;
+    --background: #ffffff;
+    --surface: #fafafa;
+    --border: #e5e5e5;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --primary: #e5e5e5;
+      --secondary: #a3a3a3;
+      --muted: #737373;
+      --accent: #4d9fff;
+      --background: #0a0a0a;
+      --surface: #121212;
+      --border: #2a2a2a;
+    }
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom utilities that I used in component files */
+@utility text-primary {
+  color: var(--primary);
+}
+
+@utility text-secondary {
+  color: var(--secondary);
+}
+
+@utility text-muted {
+  color: var(--muted);
+}
+
+@utility bg-primary {
+  background-color: var(--background);
+}
+
+@utility bg-secondary {
+  background-color: var(--surface);
+}
+
+@utility border-color {
+  border-color: var(--border);
 }
