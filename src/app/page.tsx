@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, Mail, MapPin } from 'lucide-react';
+import { ArrowRight, Mail, MapPin, Award, Users, Globe } from 'lucide-react';
 import { PaperCard } from '@/components/PaperCard';
 import papersData from '@/data/papers.json';
 
@@ -26,7 +26,7 @@ export default function Home() {
             </h1>
 
             <p className="text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed mb-6">
-              I am a <strong className="font-semibold text-zinc-900 dark:text-zinc-100">Postdoc @ University of Bergen</strong>, where I work on bridging cryptography and deep learning.
+              I am a <strong className="font-semibold text-zinc-900 dark:text-zinc-100">LEAD-AI Postdoctoral Fellow @ University of Bergen</strong>, funded by the <strong className="font-semibold text-zinc-900 dark:text-zinc-100">Marie Skłodowska-Curie Actions COFUND</strong> program. My research focuses on bridging cryptography and deep learning.
               Formerly, I was a P.h.D. candidate @ Radboud University.
             </p>
 
@@ -115,6 +115,106 @@ export default function Home() {
             <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
               Developing novel attacks and defenses for neuromorphic data and event-based vision systems.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Fellowships & Grants */}
+      <section className="container mx-auto px-6 py-16 max-w-5xl border-t border-zinc-200 dark:border-zinc-800">
+        <h2 className="text-2xl font-semibold mb-8 text-zinc-900 dark:text-zinc-100 flex items-center gap-3">
+          <Award className="w-6 h-6 text-zinc-400" />
+          Fellowships & Grants
+        </h2>
+        <div className="space-y-6">
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
+            <div>
+              <h3 className="font-medium text-zinc-900 dark:text-zinc-100">LEAD-AI Postdoctoral Fellowship</h3>
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                Marie Skłodowska-Curie Actions (MSCA) COFUND program. University of Bergen, Norway.
+              </p>
+            </div>
+            <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
+              2025 — Present
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Academic Service */}
+      <section className="container mx-auto px-6 py-16 max-w-5xl border-t border-zinc-200 dark:border-zinc-800">
+        <h2 className="text-2xl font-semibold mb-8 text-zinc-900 dark:text-zinc-100 flex items-center gap-3">
+          <Users className="w-6 h-6 text-zinc-400" />
+          Academic Service
+        </h2>
+        <div className="space-y-6">
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
+            <div>
+              <h3 className="font-medium text-zinc-900 dark:text-zinc-100">Program Committee</h3>
+              <ul className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 space-y-1 list-disc list-inside">
+                <li>ACM Conference on Computer and Communications Security (CCS) — Machine Learning and Security Track, 2026</li>
+                <li>IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2026</li>
+              </ul>
+            </div>
+            <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
+              2025 — Present
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
+            <div>
+              <h3 className="font-medium text-zinc-900 dark:text-zinc-100">Session Chair</h3>
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                European Symposium on Research in Computer Security (ESORICS) 2025
+              </p>
+            </div>
+            <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
+              2025
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
+            <div>
+              <h3 className="font-medium text-zinc-900 dark:text-zinc-100">Reviewer</h3>
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                IEEE Transactions on Information Forensics & Security (TIFS)
+              </p>
+            </div>
+            <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
+              2023 — Present
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
+            <div>
+              <h3 className="font-medium text-zinc-900 dark:text-zinc-100">Artifact Evaluator</h3>
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                Network and Distributed System Security Symposium (NDSS)
+              </p>
+            </div>
+            <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
+              2023 — 2024
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Research Visits */}
+      <section className="container mx-auto px-6 py-16 max-w-5xl border-t border-zinc-200 dark:border-zinc-800">
+        <h2 className="text-2xl font-semibold mb-8 text-zinc-900 dark:text-zinc-100 flex items-center gap-3">
+          <Globe className="w-6 h-6 text-zinc-400" />
+          Research Visits
+        </h2>
+        <div className="space-y-6">
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
+            <div>
+              <h3 className="font-medium text-zinc-900 dark:text-zinc-100">University College London (UCL)</h3>
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                Visiting Prof. Lorenzo Cavallaro and his team. London, UK.
+              </p>
+            </div>
+            <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
+              2024
+            </div>
           </div>
         </div>
       </section>
