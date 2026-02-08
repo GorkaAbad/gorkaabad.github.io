@@ -2,7 +2,7 @@
   {
     "title": "Membership privacy evaluation in deep spiking neural networks",
     "year": "2025",
-    "citation_count": 4,
+    "citation_count": 5,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:e5wmG9Sq2KIC",
     "authors": "Jiaxin Li and Gorka Abad and Stjepan Picek and Mauro Conti"
   },
@@ -14,9 +14,9 @@
     "authors": "Gorka Abad and Stjepan Picek and Aitor Urbieta"
   },
   {
-    "title": "SoK: The Last Line of Defense: On Backdoor Defense Evaluation",
+    "title": "Sok: The last line of defense: On backdoor defense evaluation",
     "year": "2025",
-    "citation_count": 0,
+    "citation_count": 1,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:lSLTfruPkqcC",
     "authors": "Gorka Abad and Marina Kr\u010dek and Stefanos Koffas and Behrad Tajalli and Marco Arazzi and Roberto Ria\u00f1o and Xiaoyun Xu and Zhuoran Liu and Antonino Nocera and Stjepan Picek"
   },
@@ -30,7 +30,7 @@
   {
     "title": "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
     "year": "2024",
-    "citation_count": 26,
+    "citation_count": 28,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:dhFuZR0502QC",
     "authors": "Gorka Abad and Oguzhan Ersoy and Stjepan Picek and Aitor Urbieta"
   },
@@ -58,7 +58,7 @@
   {
     "title": "Rethinking the trigger-injecting position in graph backdoor attack",
     "year": "2023",
-    "citation_count": 13,
+    "citation_count": 15,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:W7OEmFMy1HYC",
     "authors": "Jing Xu and Gorka Abad and Stjepan Picek"
   },
@@ -100,14 +100,14 @@
   {
     "title": "Poster: Backdoor attacks on spiking nns and neuromorphic datasets",
     "year": "2022",
-    "citation_count": 15,
+    "citation_count": 16,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:IjCSPb-OGe4C",
     "authors": "Gorka Abad and Oguzhan Ersoy and Stjepan Picek and V\u00edctor Julio Ram\u00edrez-Dur\u00e1n and Aitor Urbieta"
   },
   {
     "title": "On the Security & Privacy in Federated Learning",
     "year": "2021",
-    "citation_count": 36,
+    "citation_count": 37,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:UeHWp8X0CEIC",
     "authors": "Gorka Abad and Stjepan Picek and Aitor Urbieta"
   }
