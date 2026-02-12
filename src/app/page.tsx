@@ -153,10 +153,11 @@ export default function Home() {
               <ul className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 space-y-1 list-disc list-inside">
                 <li>ACM Conference on Computer and Communications Security (CCS) — Machine Learning and Security Track, 2026</li>
                 <li>IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2026</li>
+                <li>SAFE-ML Workshop at the IEEE International Conference on Software Testing, Verification and Validation (ICST), 2026</li>
               </ul>
             </div>
             <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
-              2025 — Present
+              2026 — Present
             </div>
           </div>
 
