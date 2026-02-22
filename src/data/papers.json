@@ -30,19 +30,19 @@
   {
     "title": "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
     "year": "2024",
-    "citation_count": 28,
+    "citation_count": 31,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:dhFuZR0502QC",
     "authors": "Gorka Abad and Oguzhan Ersoy and Stjepan Picek and Aitor Urbieta"
   },
   {
-    "title": "Flashy Backdoor: Real-world Environment Backdoor Attack on SNNs with DVS Cameras",
+    "title": "Flashy backdoor: Real-world environment backdoor attack on snns with dvs cameras",
     "year": "2024",
-    "citation_count": 2,
+    "citation_count": 3,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:j3f4tGmQtD8C",
     "authors": "Roberto Ria\u00f1o and Gorka Abad and Stjepan Picek and Aitor Urbieta"
   },
   {
-    "title": "Context is the Key: Backdoor Attacks for In-Context Learning with Vision Transformers",
+    "title": "Context is the key: Backdoor attacks for in-context learning with vision transformers",
     "year": "2024",
     "citation_count": 2,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:R3hNpaxXUhUC",
@@ -65,7 +65,7 @@
   {
     "title": "Sniper Backdoor: Single Client Targeted Backdoor Attack in Federated Learning",
     "year": "2023",
-    "citation_count": 12,
+    "citation_count": 13,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:zYLM7Y9cAGgC",
     "authors": "Gorka Abad and Servio Paguada and Oguzhan Ersoy and Stjepan Picek and Victor Julio Ram\u00edrez-Dur\u00e1n and Aitor Urbieta"
   },
@@ -77,7 +77,7 @@
     "authors": "Gorka Abad and Jing Xu and Stefanos Koffas and Behrad Tajalli and Stjepan Picek and Mauro Conti"
   },
   {
-    "title": "Tabdoor: Backdoor Vulnerabilities in Transformer-based Neural Networks for Tabular Data",
+    "title": "Tabdoor: Backdoor vulnerabilities in transformer-based neural networks for tabular data",
     "year": "2023",
     "citation_count": 4,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:MXK_kJrjxJIC",
@@ -93,9 +93,16 @@
   {
     "title": "Backdoor attacks against transformer-based neural networks for tabular data",
     "year": "2023",
-    "citation_count": 1,
+    "citation_count": 2,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:_Qo2XoVZTnwC",
     "authors": "Bart Pleiter and B Tajalli and S Koffas and G Abad and J Xu and M Larson and S Picek"
+  },
+  {
+    "title": "Backdoor attacks on transformers for tabular data: An empirical study",
+    "year": "2023",
+    "citation_count": 1,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:35N4QoGY0k4C",
+    "authors": "Bart Pleiter and Behrad Tajalli and Stefanos Koffas and Gorka Abad and Jing Xu and Martha Larson and Stjepan Picek"
   },
   {
     "title": "Poster: Backdoor attacks on spiking nns and neuromorphic datasets",
@@ -107,7 +114,7 @@
   {
     "title": "On the Security & Privacy in Federated Learning",
     "year": "2021",
-    "citation_count": 37,
+    "citation_count": 38,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:UeHWp8X0CEIC",
     "authors": "Gorka Abad and Stjepan Picek and Aitor Urbieta"
   }
