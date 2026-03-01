@@ -7,6 +7,13 @@
     "authors": "Jiaxin Li and Gorka Abad and Stjepan Picek and Mauro Conti"
   },
   {
+    "title": "Flashy backdoor: Real-world environment backdoor attack on snns with dvs cameras",
+    "year": "2025",
+    "citation_count": 4,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:j3f4tGmQtD8C",
+    "authors": "Roberto Ria\u00f1o and Gorka Abad and Stjepan Picek and Aitor Urbieta"
+  },
+  {
     "title": "Time-distributed backdoor attacks on federated spiking learning",
     "year": "2025",
     "citation_count": 3,
@@ -30,16 +37,9 @@
   {
     "title": "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
     "year": "2024",
-    "citation_count": 31,
+    "citation_count": 33,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:dhFuZR0502QC",
     "authors": "Gorka Abad and Oguzhan Ersoy and Stjepan Picek and Aitor Urbieta"
-  },
-  {
-    "title": "Flashy backdoor: Real-world environment backdoor attack on snns with dvs cameras",
-    "year": "2024",
-    "citation_count": 3,
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:j3f4tGmQtD8C",
-    "authors": "Roberto Ria\u00f1o and Gorka Abad and Stjepan Picek and Aitor Urbieta"
   },
   {
     "title": "Context is the key: Backdoor attacks for in-context learning with vision transformers",
