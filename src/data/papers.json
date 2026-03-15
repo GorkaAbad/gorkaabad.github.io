@@ -1,5 +1,12 @@
 [
   {
+    "title": "Removing the Trigger, Not the Backdoor: Alternative Triggers and Latent Backdoors",
+    "year": "2026",
+    "citation_count": 0,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:70eg2SAEIzsC",
+    "authors": "Gorka Abad and Ermes Franch and Stefanos Koffas and Stjepan Picek"
+  },
+  {
     "title": "Membership privacy evaluation in deep spiking neural networks",
     "year": "2025",
     "citation_count": 5,
@@ -23,7 +30,7 @@
   {
     "title": "Sok: The last line of defense: On backdoor defense evaluation",
     "year": "2025",
-    "citation_count": 1,
+    "citation_count": 2,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:lSLTfruPkqcC",
     "authors": "Gorka Abad and Marina Kr\u010dek and Stefanos Koffas and Behrad Tajalli and Marco Arazzi and Roberto Ria\u00f1o and Xiaoyun Xu and Zhuoran Liu and Antonino Nocera and Stjepan Picek"
   },
