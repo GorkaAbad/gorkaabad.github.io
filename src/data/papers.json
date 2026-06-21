@@ -21,6 +21,13 @@
     "authors": "Roberto Ria\u00f1o and Gorka Abad and Stjepan Picek and Aitor Urbieta"
   },
   {
+    "title": "Sok: The last line of defense: On backdoor defense evaluation",
+    "year": "2025",
+    "citation_count": 4,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:lSLTfruPkqcC",
+    "authors": "Gorka Abad and Marina Kr\u010dek and Stefanos Koffas and Behrad Tajalli and Marco Arazzi and Roberto Ria\u00f1o and Xiaoyun Xu and Zhuoran Liu and Antonino Nocera and Stjepan Picek"
+  },
+  {
     "title": "Time-distributed backdoor attacks on federated spiking learning",
     "year": "2025",
     "citation_count": 3,
@@ -28,11 +35,11 @@
     "authors": "Gorka Abad and Stjepan Picek and Aitor Urbieta"
   },
   {
-    "title": "Sok: The last line of defense: On backdoor defense evaluation",
+    "title": "Backdoor attacks on transformers for tabular data: An empirical study",
     "year": "2025",
-    "citation_count": 2,
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:lSLTfruPkqcC",
-    "authors": "Gorka Abad and Marina Kr\u010dek and Stefanos Koffas and Behrad Tajalli and Marco Arazzi and Roberto Ria\u00f1o and Xiaoyun Xu and Zhuoran Liu and Antonino Nocera and Stjepan Picek"
+    "citation_count": 1,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:35N4QoGY0k4C",
+    "authors": "Bart Pleiter and Behrad Tajalli and Stefanos Koffas and Gorka Abad and Jing Xu and Martha Larson and Stjepan Picek"
   },
   {
     "title": "Backdoor erasoak spiking sare neuronaletan datu neuromorfikoekin",
@@ -44,14 +51,14 @@
   {
     "title": "Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data",
     "year": "2024",
-    "citation_count": 33,
+    "citation_count": 38,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:dhFuZR0502QC",
     "authors": "Gorka Abad and Oguzhan Ersoy and Stjepan Picek and Aitor Urbieta"
   },
   {
     "title": "Context is the key: Backdoor attacks for in-context learning with vision transformers",
     "year": "2024",
-    "citation_count": 2,
+    "citation_count": 4,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:R3hNpaxXUhUC",
     "authors": "Gorka Abad and Stjepan Picek and Lorenzo Cavallaro and Aitor Urbieta"
   },
@@ -65,7 +72,7 @@
   {
     "title": "Rethinking the trigger-injecting position in graph backdoor attack",
     "year": "2023",
-    "citation_count": 15,
+    "citation_count": 17,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:W7OEmFMy1HYC",
     "authors": "Jing Xu and Gorka Abad and Stjepan Picek"
   },
@@ -79,7 +86,7 @@
   {
     "title": "SoK: A Systematic Evaluation of Backdoor Trigger Characteristics in Image Classification",
     "year": "2023",
-    "citation_count": 10,
+    "citation_count": 12,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:Tyk-4Ss8FVUC",
     "authors": "Gorka Abad and Jing Xu and Stefanos Koffas and Behrad Tajalli and Stjepan Picek and Mauro Conti"
   },
@@ -105,23 +112,16 @@
     "authors": "Bart Pleiter and B Tajalli and S Koffas and G Abad and J Xu and M Larson and S Picek"
   },
   {
-    "title": "Backdoor attacks on transformers for tabular data: An empirical study",
-    "year": "2023",
-    "citation_count": 1,
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:35N4QoGY0k4C",
-    "authors": "Bart Pleiter and Behrad Tajalli and Stefanos Koffas and Gorka Abad and Jing Xu and Martha Larson and Stjepan Picek"
-  },
-  {
     "title": "Poster: Backdoor attacks on spiking nns and neuromorphic datasets",
     "year": "2022",
-    "citation_count": 16,
+    "citation_count": 17,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:IjCSPb-OGe4C",
     "authors": "Gorka Abad and Oguzhan Ersoy and Stjepan Picek and V\u00edctor Julio Ram\u00edrez-Dur\u00e1n and Aitor Urbieta"
   },
   {
     "title": "On the Security & Privacy in Federated Learning",
     "year": "2021",
-    "citation_count": 38,
+    "citation_count": 40,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KasGG7wAAAAJ&citation_for_view=KasGG7wAAAAJ:UeHWp8X0CEIC",
     "authors": "Gorka Abad and Stjepan Picek and Aitor Urbieta"
   }
