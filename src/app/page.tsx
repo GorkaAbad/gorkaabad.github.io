@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, Mail, MapPin, Award, Users, Globe } from 'lucide-react';
+import { ArrowRight, Mail, MapPin, Award, Users, Globe, GraduationCap } from 'lucide-react';
 import { PaperCard } from '@/components/PaperCard';
 import papersData from '@/data/papers.json';
 
@@ -140,6 +140,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Teaching */}
+      <section className="container mx-auto px-6 py-16 max-w-5xl border-t border-zinc-200 dark:border-zinc-800">
+        <h2 className="text-2xl font-semibold mb-8 text-zinc-900 dark:text-zinc-100 flex items-center gap-3">
+          <GraduationCap className="w-6 h-6 text-zinc-400" />
+          Teaching
+        </h2>
+        <div className="space-y-6">
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
+            <div>
+              <h3 className="font-medium text-zinc-900 dark:text-zinc-100">
+                &ldquo;The Only Constant is Change: AI in Research, Innovation, and Careers&rdquo;
+              </h3>
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                4th Vilnius University Multidisciplinary Doctoral Summer School. VU Botanical Garden, Vilnius, Lithuania.
+                Program focused on integrating artificial intelligence into research practice and developing transferable career skills.
+              </p>
+            </div>
+            <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
+              Jun 2026
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Academic Service */}
       <section className="container mx-auto px-6 py-16 max-w-5xl border-t border-zinc-200 dark:border-zinc-800">
         <h2 className="text-2xl font-semibold mb-8 text-zinc-900 dark:text-zinc-100 flex items-center gap-3">
@@ -151,8 +175,8 @@ export default function Home() {
             <div>
               <h3 className="font-medium text-zinc-900 dark:text-zinc-100">Program Committee</h3>
               <ul className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 space-y-1 list-disc list-inside">
-                <li>ACM Conference on Computer and Communications Security (CCS) — Machine Learning and Security Track, 2026</li>
-                <li>IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2026</li>
+                <li>ACM Conference on Computer and Communications Security (CCS) — Machine Learning and Security Track, 2026, 2027</li>
+                <li>IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2026, 2027</li>
                 <li>SAFE-ML Workshop at the IEEE International Conference on Software Testing, Verification and Validation (ICST), 2026</li>
               </ul>
             </div>
