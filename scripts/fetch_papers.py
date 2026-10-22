@@ -1,7 +1,18 @@
 import json
 import os
 import time
-from scholarly import scholarly
+import sys
+from scholarly import scholarly, ProxyGenerator
+
+def setup_proxy():
+    # Google Scholar blocks GitHub-hosted runner IPs, so route through a proxy.
+    key = os.environ.get('SCRAPERAPI_KEY')
+    pg = ProxyGenerator()
+    ok = pg.ScraperAPI(key) if key else pg.FreeProxies()
+    if ok:
+        scholarly.use_proxy(pg)
+    else:
+        print('Warning: proxy setup failed, trying direct connection')
 
 def fetch_papers(author_id):
     print(f"Fetching papers for author ID: {author_id}")
@@ -52,6 +63,7 @@ def main():
     AUTHOR_ID = 'KasGG7wAAAAJ'
     OUTPUT_FILE = 'src/data/papers.json'
     
+    setup_proxy()
     try:
         papers = fetch_papers(AUTHOR_ID)
         
@@ -64,6 +76,7 @@ def main():
         
     except Exception as e:
         print(f"Error fetching papers: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
