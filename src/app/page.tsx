@@ -200,12 +200,11 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
             <div>
               <h3 className="font-medium text-zinc-900 dark:text-zinc-100">Reviewer</h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
-                IEEE Transactions on Information Forensics & Security (TIFS)
-              </p>
-            </div>
-            <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
-              2023 — Present
+              <ul className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 space-y-1 list-disc list-inside">
+                <li>IEEE Transactions on Information Forensics & Security (TIFS), 2023 — Present</li>
+                <li>IEEE Transactions on Emerging Topics in Computing</li>
+                <li>International Journal of Computer Mathematics</li>
+              </ul>
             </div>
           </div>
 
